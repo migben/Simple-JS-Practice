@@ -1,0 +1,88 @@
+body {
+  text-align: center;
+  background-color: #b83b5e;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #ff2e63;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #252a34;
+
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+}
+
+.w {
+
+}
+
+.a {
+
+}
+
+.s {
+
+}
+
+.d {
+
+}
+
+.j {
+
+}
+
+.k {
+
+}
+
+.l {
+
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.sound {
+  outline: none;
+  border: 10px solid #252a34;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #ff2e63;
+  text-shadow: 3px 0 #222831;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: #fff;
+}
+
+.line {
+  border-top: 3px dashed white;
+  width: 50%;
+  position: relative;
+  bottom: 55px;
+}
