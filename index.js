@@ -1,28 +1,34 @@
-let numBtns = document.querySelectorAll('.sound').length;
+let numBtns = document.querySelectorAll(".sound").length;
 
 for(let i = 0; i < numBtns ; i++) {
     document.querySelectorAll('.sound')[i].addEventListener('click', function () {
 
-        let btnInnerHtml = this.InnerHtml;
+        let btnInnerHtml = this.innerHTML;
+
         sounds(btnInnerHtml);
+        
+        animateBtn(btnInnerHtml);
         
     });
 }
 
-document.addEventListener('keydown', function(event){
+document.addEventListener("keydown", function(event){
+
     sounds(event.key);
-})
+
+    animateBtn(event.key);
+});
 
 function sounds(key) {
 
-    switch (btnInnerHtml) {
+    switch (key) {
 
         case 'w':
-            let tom1 = new Audio('sounds/tom-1.mp3');
+            let tom1 = new Audio('sounds/what.wav');
             tom1.play();
             break;
 
-        case 'w':
+        case 'a':
             let tom2 = new Audio('sounds/tom-2.mp3');
             tom2.play();
             break;
@@ -33,7 +39,7 @@ function sounds(key) {
             break;
 
         case 'd':
-            let tom4 = new Audio('sounds/tom-4.mp3');
+            let tom4 = new Audio('sounds/prayer.mp3');
             tom4.play();
             break;
 
@@ -58,5 +64,18 @@ function sounds(key) {
     }
 }
 
+
+
+function animateBtn(key){
+
+    let activeBtn = document.querySelector('.'+key);
+
+    activeBtn.classList.add('pressed');
+
+    setTimeout(() => {
+        activeBtn.classList.remove('pressed');
+    }, 100);
+
+}
 
 
