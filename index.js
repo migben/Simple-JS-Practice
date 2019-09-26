@@ -29,12 +29,12 @@ function sounds(key) {
             break;
 
         case 'a':
-            let tom2 = new Audio('sounds/tom-2.mp3');
+            let tom2 = new Audio('sounds/alucard2.mp3');
             tom2.play();
             break;
 
         case 's':
-            let tom3 = new Audio('sounds/tom-3.mp3');
+            let tom3 = new Audio('sounds/maria.mp3');
             tom3.play();
             break;
 
@@ -44,17 +44,17 @@ function sounds(key) {
             break;
 
         case 'j':
-            let snare = new Audio('sounds/snare.mp3');
+            let snare = new Audio('sounds/ricther.mp3');
             snare.play();
             break;
 
         case 'k':
-            let crash = new Audio('sounds/crash.mp3');
+            let crash = new Audio('sounds/master.mp3');
             crash.play();
             break;
 
         case 'l':
-            let kick = new Audio('sounds/kick.mp3');
+            let kick = new Audio('sounds/succubus.mp3');
             kick.play();
             break;
 

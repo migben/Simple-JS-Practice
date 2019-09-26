@@ -29,7 +29,9 @@ footer {
 }
 
 .d {
-  background-image: url('images/logo.png');
+  background-image: url('images/coffin.jpg');
+  background-size: cover; 
+  
 }
 
 .j {
@@ -41,7 +43,7 @@ footer {
 }
 
 .l {
-  background-image: url('images/lisa.png');
+  background-image: url('images/succubus.png');
 }
 
 .set {
