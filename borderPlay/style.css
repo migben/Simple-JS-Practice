@@ -1,6 +1,6 @@
  body {
      text-align: center;
-     background: #193549;
+     background: #2e3439;
      color: white;
      font-family: 'helvetica neue', sans-serif;
      font-weight: 100;
@@ -10,6 +10,8 @@
  .controls {
      margin-bottom: 50px;
  }
+
+
 
  input {
      width: 100px;
@@ -27,7 +29,7 @@
      filter: blur(var(--blur));
  }
 
- .h1 {
+ .hl {
      color: var(--base);
  }
 
