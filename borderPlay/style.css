@@ -12,7 +12,7 @@
  }
 
 
-
+ /* I'll try using some css variables now. */
  input {
      width: 100px;
  }
@@ -33,4 +33,3 @@
      color: var(--base);
  }
 
- /* I'll try using some css variables now. */
