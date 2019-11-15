@@ -1,7 +1,7 @@
 # Description
-This is a set of simple JS scripts built for practicing and learning more about javascript.
+This is a set of simple JS scripts built for practicing and learning more about javascript. 
 
-## Projects:
+## Scripts:
 
 
 - ### Sound-Keys
